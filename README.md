@@ -2,6 +2,13 @@
 
 A bash script to automatically update a DNS A record on Cloudflare with your current public IP address. The script is designed to be used as a Dynamic DNS (DDNS) updater, allowing you to maintain an up-to-date DNS record with your IP address, even when it changes.
 
+
+## instalation
+
+```bash
+git clone https://github.com/xabi-dev/cloudfare-ddns.git
+```
+
 ## Features
 - Retrieves public IPv4 address and updates the Cloudflare DNS record if it changes.
 - Supports notifications via Slack and Discord on successful or failed updates.
