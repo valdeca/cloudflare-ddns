@@ -6,7 +6,7 @@ A bash script to automatically update a DNS A record on Cloudflare with your cur
 ## instalation
 
 ```bash
-git clone https://github.com/xabi-dev/cloudfare-ddns.git
+git clone https://github.com/xabi-dev/cloudflare-ddns.git
 ```
 
 ## Features
@@ -55,13 +55,13 @@ discorduri="https://discordapp.com/api/webhooks/your_discord_webhook"
 ```
 ##	1.	Make the script executable:
 ```bash 
-chmod +x ddns_updater.sh
+chmod +x ddns-script.sh
 ```
 ##	2.	Run the script manually:
 ```bash 
-./ddns_updater.sh
+./ddns-script.sh
 ```
 ##	To run the script periodically, add a cron job. For example, to run every 5 minutes:
 ```bash 
-*/5 * * * * /path/to/ddns_updater.sh >> /path/to/logfile.log 2>&1
+*/5 * * * * /path/to/ddns-script.sh >> /path/to/logfile.log 2>&1
 ```
