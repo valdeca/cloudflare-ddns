@@ -45,15 +45,16 @@ sitename="Example Site"
 slackchannel="#notifications"
 slackuri="https://hooks.slack.com/services/your_slack_webhook"
 discorduri="https://discordapp.com/api/webhooks/your_discord_webhook"
-
+```
 ##	1.	Make the script executable:
 ```bash 
 chmod +x ddns_updater.sh
-
+```
 ##	2.	Run the script manually:
 ```bash 
 ./ddns_updater.sh
-
+```
 ##	To run the script periodically, add a cron job. For example, to run every 5 minutes:
 ```bash 
 */5 * * * * /path/to/ddns_updater.sh >> /path/to/logfile.log 2>&1
+```
